@@ -1,0 +1,166 @@
+.content {
+    float: left;
+    width: calc(100% - 260px);
+    margin: 100px 20px 20px 240px;
+}
+
+.user-list {
+    margin: 10px auto;
+    color: #999;
+    text-align: right;
+}
+
+.search-box span {
+    margin-left: 6px;
+}
+
+.search-btn {
+    display: inline-block;
+    width: 46px;
+    height: 26px;
+    padding-left: 20px;
+    background: #0dc2b3 url(../images/search.png) 8px 4px no-repeat;
+    background-size:18px 18px;
+    line-height: 26px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search-text {
+    width: 270px;
+    line-height: 24px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    color: #666;
+    font-size: 14px;
+    padding-left: 10px;
+    height: 28px;
+}
+
+.add-btn {
+    display: inline-block;
+    width: 46px;
+    padding-left: 20px;
+    height: 26px;
+    background: #0dc2b3 url(../images/user-add.png) 8px 4px no-repeat;
+    background-size: 18px 18px;
+    line-height: 26px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #0dc2b3;
+}
+
+/*分页*/
+/********************************************翻页 begin*********************************************/
+
+.pagination {
+    height: 24px;
+    line-height: 1em;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'simsun';
+    line-height: 22px;
+    vertical-align: middle;
+}
+
+.pagination a {
+    text-decoration: none;
+    border: solid 1px #7499cb;
+    color: #0455a1;
+}
+
+.pagination a:hover, .pagination a:active {
+    text-decoration: none;
+}
+
+.pagination a, .pagination span {
+    display: inline-block;
+    padding: 0 7px;
+    _padding-top: 3px;
+    margin-right: 6px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.pagination .current {
+    background-color: #fff;
+    color: #0455a1;
+    font-weight: bold;
+    border: solid 1px #fff;
+}
+
+.pagination .current.prev, .pagination .current.next {
+    color: #999;
+    font-weight: normal;
+}
+
+.pagination .goto {
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 1px 0;
+    *display: inline;
+    *zoom: 1;
+}
+
+.pagination .goto input {
+    padding: 0 3px;
+    width: 24px;
+    height: 18px;
+    border: 1px solid #0455a1;
+    vertical-align: middle;
+}
+
+.pagination .goto button {
+    margin: 0 0 0 4px;
+    padding: 0 8px;
+    height: 20px;
+    background: #0455a1;
+    color: #fff;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.pagination {
+    margin: 26px 0;
+    text-align: right;
+    margin-right: 10px;
+    font-family: Microsoft Yahei;
+    color: #717171;
+}
+
+.page-btn {
+    width: 45px;
+    margin-left: 8px;
+}
+
+.pagination a {
+    color: #717171;
+    border: 1px solid #dcdcdc;
+}
+
+.pagination .current {
+    color: #0fc4b5;
+    border: 1px solid #0fc4b5;
+}
+
+.page-num {
+    margin: 0 5px;
+    padding: 3px 0 5px 0px;
+    padding: 3px 0 8px 0 \0/;
+    width: 51px;
+    border: 1px solid #0fc4b5;
+    color: #717171;
+    height: 12px;
+}
+
+/**************************************************************翻页 end*******************************/
+.nowrap{
+    white-space: nowrap;
+}
