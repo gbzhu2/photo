@@ -1,0 +1,85 @@
+.content{
+    float: left;
+    width: calc(100% - 260px);
+    margin: 100px 20px 0px 240px;
+}
+
+.btn-group>span{
+    margin-left: 12px;
+    padding-left: 30px;
+    background-size: 18px 18px;
+    color: #fff;
+    vertical-align: top;
+}
+
+.asset-list {
+    margin: 10px auto;
+    color: #999;
+    text-align: right;
+    overflow-x: auto;
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
+}
+.add-btn {
+    background: #0dc2b3 url(../images/add.png) 6px 4px no-repeat;
+}
+.import-btn{
+    background: #0dc2b3 url(../images/import.png) 6px 4px no-repeat;
+}
+.export-btn{
+    background: #0DC2B3 url(../images/export.png) 4px 4px no-repeat;
+}
+.search-btn {
+    background: #0dc2b3 url(../images/search.png) 6px 4px no-repeat;
+}
+.batch-delete-btn{
+    background: #0dc2b3 url(../images/delete.png) 6px 4px no-repeat;
+}
+.batch-update-btn{
+    background: #0dc2b3 url(../images/update.png) 6px 4px no-repeat;
+}
+
+.freeze-header{
+    table-layout: fixed;
+}
+
+.tbody-scroll{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+.w86{
+    width:86px;
+}
+
+.wScroll{
+    width:154px;
+}
+
+.w157{
+    width: 157px;
+}
+
+.w169{
+    width: 169px;
+}
+
+.w187{
+    width: 187px;
+}
+
+.operation{
+    width: 178px;
+    opacity: 0;
+}
+
+.repeat-msg{
+    height: 100px;
+    width: 400px;
+    overflow-y: auto;
+    display: block;
+    word-wrap: break-word;
+}
